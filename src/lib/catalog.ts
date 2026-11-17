@@ -78,7 +78,7 @@ export const PRODUCTS: Product[] = [
   {
     id: "ferdows-handbag",
     code: "0147",
-    sku: "S5418",
+    sku: "S5410",
     name: "کیف دستی فردوس",
     category: "bags",
     type: "hand",
