@@ -60,7 +60,7 @@ function HomePage() {
             height={1088}
             className="h-full w-full object-cover object-[70%_center]"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-foreground/55 via-foreground/10 to-transparent sm:bg-gradient-to-r sm:from-foreground/0 sm:via-foreground/5 sm:to-foreground/45" />
+          <div className="absolute inset-0 bg-gradient-to-t from-foreground/55 via-foreground/10 to-transparent sm:bg-gradient-to-l sm:from-transparent sm:via-foreground/10 sm:to-foreground/55" />
         </div>
         <div className="absolute inset-x-0 bottom-0 px-4 pb-8 sm:inset-y-0 sm:left-0 sm:right-auto sm:flex sm:w-1/2 sm:items-center sm:px-10 sm:pb-0 lg:px-20">
           <div className="max-w-md text-primary-foreground">
