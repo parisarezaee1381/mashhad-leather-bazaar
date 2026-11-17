@@ -61,8 +61,8 @@ export function SiteFooter() {
             <div key={loc.id}>
               <p className="mb-4 text-[12px] tracking-[0.15em] text-gold">{loc.title}</p>
               <p className="leading-7">{loc.address}</p>
-              <p className="mt-2" dir="ltr" style={{ textAlign: "right" }}>
-                {loc.phone}
+              <p className="mt-2">
+                <bdi dir="ltr">{loc.phone}</bdi>
               </p>
             </div>
           ))}
