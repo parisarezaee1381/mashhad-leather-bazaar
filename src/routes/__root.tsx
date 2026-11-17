@@ -147,7 +147,6 @@ function RootComponent() {
       <Toaster
         dir="rtl"
         position="top-center"
-        toastOptions={{ className: "font-sans rounded-none border-gold/40 bg-card text-foreground" }}
       />
     </QueryClientProvider>
   );
